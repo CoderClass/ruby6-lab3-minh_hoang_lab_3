@@ -25,11 +25,13 @@ gem 'slim-rails'
 group :development do
   # gem 'rails_layout'
   gem 'spring-commands-rspec'
+  gem 'guard-rspec', require: false
 end
 group :development, :test do
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'rspec-rails'
+
 end
 group :test do
   gem 'capybara', '~> 2.10', '>= 2.10.1'
